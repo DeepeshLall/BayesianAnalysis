@@ -1,0 +1,254 @@
+%!PS-Adobe-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%DocumentMedia: a4 595 841 0 () ()
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%Orientation: Portrait
+%%BoundingBox: 18 18 577 824
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+18.00 18.00 577.28 823.89 cl
+/Font2 findfont 14 s
+0 0 0 srgb
+312.04 789.34 (n =  500) .5 0 t
+/Font5 findfont 12 s
+308.74 39.40 (b) 0 0 t
+28.26 413.00 (p) 0 90 t
+/Font1 findfont 12 s
+28.26 419.59 (\() 0 90 t
+/Font5 findfont 12 s
+28.26 423.58 (b) 0 90 t
+/Font1 findfont 12 s
+28.26 430.17 (|y\)) 0 90 t
+18.00 18.00 577.28 823.89 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+156.62 91.44 m
+355.25 0 l
+o
+np
+156.62 91.44 m
+0 -7.20 l
+o
+np
+245.43 91.44 m
+0 -7.20 l
+o
+np
+334.24 91.44 m
+0 -7.20 l
+o
+np
+423.05 91.44 m
+0 -7.20 l
+o
+np
+511.87 91.44 m
+0 -7.20 l
+o
+/Font1 findfont 12 s
+156.62 65.52 (0.75) .5 0 t
+245.43 65.52 (0.80) .5 0 t
+334.24 65.52 (0.85) .5 0 t
+423.05 65.52 (0.90) .5 0 t
+511.87 65.52 (0.95) .5 0 t
+np
+77.04 116.38 m
+0 613.02 l
+o
+np
+77.04 116.38 m
+-7.20 0 l
+o
+np
+77.04 203.96 m
+-7.20 0 l
+o
+np
+77.04 291.53 m
+-7.20 0 l
+o
+np
+77.04 379.10 m
+-7.20 0 l
+o
+np
+77.04 466.68 m
+-7.20 0 l
+o
+np
+77.04 554.25 m
+-7.20 0 l
+o
+np
+77.04 641.83 m
+-7.20 0 l
+o
+np
+77.04 729.40 m
+-7.20 0 l
+o
+59.76 116.38 (0) .5 90 t
+59.76 203.96 (2) .5 90 t
+59.76 291.53 (4) .5 90 t
+59.76 379.10 (6) .5 90 t
+59.76 466.68 (8) .5 90 t
+59.76 554.25 (10) .5 90 t
+59.76 641.83 (12) .5 90 t
+59.76 729.40 (14) .5 90 t
+77.04 91.44 547.04 764.85 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+94.45 116.38 8.88 1.75 r p1
+103.33 116.38 8.88 0.00 r p1
+112.21 116.38 8.88 0.00 r p1
+121.09 116.38 8.88 3.50 r p1
+129.97 116.38 8.88 7.01 r p1
+138.85 116.38 8.88 10.51 r p1
+147.73 116.38 8.88 14.01 r p1
+156.62 116.38 8.88 12.26 r p1
+165.50 116.38 8.88 15.76 r p1
+174.38 116.38 8.88 42.04 r p1
+183.26 116.38 8.88 36.78 r p1
+192.14 116.38 8.88 87.57 r p1
+201.02 116.38 8.88 89.33 r p1
+209.90 116.38 8.88 87.57 r p1
+218.78 116.38 8.88 164.64 r p1
+227.67 116.38 8.88 255.72 r p1
+236.55 116.38 8.88 204.92 r p1
+245.43 116.38 8.88 255.72 r p1
+254.31 116.38 8.88 334.53 r p1
+263.19 116.38 8.88 373.07 r p1
+272.07 116.38 8.88 511.43 r p1
+280.95 116.38 8.88 513.18 r p1
+289.83 116.38 8.88 539.46 r p1
+298.72 116.38 8.88 595.50 r p1
+307.60 116.38 8.88 623.53 r p1
+316.48 116.38 8.88 602.51 r p1
+325.36 116.38 8.88 520.19 r p1
+334.24 116.38 8.88 458.89 r p1
+343.12 116.38 8.88 476.40 r p1
+352.00 116.38 8.88 390.58 r p1
+360.88 116.38 8.88 331.03 r p1
+369.77 116.38 8.88 310.01 r p1
+378.65 116.38 8.88 199.67 r p1
+387.53 116.38 8.88 159.38 r p1
+396.41 116.38 8.88 141.87 r p1
+405.29 116.38 8.88 103.34 r p1
+414.17 116.38 8.88 92.83 r p1
+423.05 116.38 8.88 61.30 r p1
+431.93 116.38 8.88 43.79 r p1
+440.82 116.38 8.88 33.28 r p1
+449.70 116.38 8.88 19.27 r p1
+458.58 116.38 8.88 15.76 r p1
+467.46 116.38 8.88 3.50 r p1
+476.34 116.38 8.88 7.01 r p1
+485.22 116.38 8.88 0.00 r p1
+494.10 116.38 8.88 1.75 r p1
+502.98 116.38 8.88 3.50 r p1
+511.87 116.38 8.88 0.00 r p1
+520.75 116.38 8.88 1.75 r p1
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
